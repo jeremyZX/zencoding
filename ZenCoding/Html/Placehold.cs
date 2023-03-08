@@ -6,7 +6,7 @@ namespace ZenCoding
 {
     public class PlaceHold : PixelBase
     {
-        private const string _url = "http://placehold.it/";
+        private const string _url = "http://place-hold.it/";
         private static readonly string[] _formats = new string[] { "gif", "jpg", "jpeg", "png" };
 
         public string Text { get; set; }
